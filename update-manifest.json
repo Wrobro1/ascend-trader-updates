@@ -1,0 +1,19 @@
+﻿{
+    "schema_version":  1,
+    "application":  "Ascend Trader",
+    "channel":  "BETA",
+    "version":  "0.1.1-beta",
+    "published_at":  "2026-09-29T16:20:40.4665816Z",
+    "minimum_supported_version":  "0.1.0-beta",
+    "cohorts":  [
+                    "BETA_A"
+                ],
+    "installer":  {
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.1-beta/AscendTrader-Beta-0.1.1-beta-BETA_A-Setup.exe",
+                      "sha256":  "c201591df14041232225be01d6607afe7c80fe991d5d80b8dbe4aef66f02e3c8",
+                      "size_bytes":  143943498
+                  },
+    "release_notes":  [
+                          "Updater end-to-end validation release."
+                      ]
+}
