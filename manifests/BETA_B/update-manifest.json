@@ -2,18 +2,18 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.6-beta",
-    "published_at":  "2026-10-11T23:25:50.9146114Z",
-    "minimum_supported_version":  "0.1.5-beta",
+    "version":  "0.1.7-beta",
+    "published_at":  "2026-10-12T15:47:26.8283518Z",
+    "minimum_supported_version":  "0.1.6-beta",
     "cohorts":  [
                     "BETA_B"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.6-beta/AscendTrader-Beta-0.1.6-beta-BETA_B-Setup.exe",
-                      "sha256":  "8bf2e76b8d2be8ccf3653645f6ce164dcb6a02639d07547506abde8f4aec7485",
-                      "size_bytes":  144114757
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.7-beta/AscendTrader-Beta-0.1.7-beta-BETA_B-Setup.exe",
+                      "sha256":  "c30d5085698fac41638a4f7c2a62799a3a94155a6763528084168f7913b90182",
+                      "size_bytes":  144128548
                   },
     "release_notes":  [
-                          "Research Context Integration Phase 1: Context-enriched research datasets, integrity and coverage monitoring, research summary service, Research \u0026 Development Center, and prospective analysis-readiness controls."
+                          "Scheduler hotfix: restores the intended weekday 30-minute intraday trading-run cadence, validates the installed scheduler contract, and safely repairs outdated scheduled tasks while preserving automation enabled/paused state."
                       ]
 }
