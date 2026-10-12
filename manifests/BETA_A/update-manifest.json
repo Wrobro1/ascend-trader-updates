@@ -2,18 +2,20 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.7-beta",
-    "published_at":  "2026-10-12T15:44:52.4444966Z",
-    "minimum_supported_version":  "0.1.6-beta",
+    "version":  "0.1.8-beta",
+    "published_at":  "2026-10-12T21:11:49.0003058Z",
+    "minimum_supported_version":  "0.1.0-beta",
     "cohorts":  [
                     "BETA_A"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.7-beta/AscendTrader-Beta-0.1.7-beta-BETA_A-Setup.exe",
-                      "sha256":  "9cf133aefc70cdf77fd1a31d572388f259d779950f1cab6609078ba3c3f51322",
-                      "size_bytes":  144129247
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.8-beta/AscendTrader-Beta-0.1.8-beta-BETA_A-Setup.exe",
+                      "sha256":  "08690c63efdbbedb4562b96320119c2d47303fda1c04901d4eb5300d1212cf98",
+                      "size_bytes":  144128183
                   },
     "release_notes":  [
-                          "Scheduler hotfix: restores the intended weekday 30-minute intraday trading-run cadence, validates the installed scheduler contract, and safely repairs outdated scheduled tasks while preserving automation enabled/paused state."
+                          "Fix Windows Task Scheduler status overflow",
+                          "Restore verified downloaded-installer state",
+                          "Improve interrupted-update recovery"
                       ]
 }
