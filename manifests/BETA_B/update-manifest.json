@@ -1,0 +1,19 @@
+{
+    "schema_version":  1,
+    "application":  "Ascend Trader",
+    "channel":  "BETA",
+    "version":  "0.1.6-beta",
+    "published_at":  "2026-10-11T23:25:50.9146114Z",
+    "minimum_supported_version":  "0.1.5-beta",
+    "cohorts":  [
+                    "BETA_B"
+                ],
+    "installer":  {
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.6-beta/AscendTrader-Beta-0.1.6-beta-BETA_B-Setup.exe",
+                      "sha256":  "8bf2e76b8d2be8ccf3653645f6ce164dcb6a02639d07547506abde8f4aec7485",
+                      "size_bytes":  144114757
+                  },
+    "release_notes":  [
+                          "Research Context Integration Phase 1: Context-enriched research datasets, integrity and coverage monitoring, research summary service, Research \u0026 Development Center, and prospective analysis-readiness controls."
+                      ]
+}
