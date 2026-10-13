@@ -2,20 +2,20 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.8-beta",
-    "published_at":  "2026-10-12T21:11:49.0003058Z",
-    "minimum_supported_version":  "0.1.0-beta",
+    "version":  "0.1.9-beta",
+    "published_at":  "2026-10-13T19:38:50.6337611Z",
+    "minimum_supported_version":  "0.1.8-beta",
     "cohorts":  [
                     "BETA_A"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.8-beta/AscendTrader-Beta-0.1.8-beta-BETA_A-Setup.exe",
-                      "sha256":  "08690c63efdbbedb4562b96320119c2d47303fda1c04901d4eb5300d1212cf98",
-                      "size_bytes":  144128183
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.9-beta/AscendTrader-Beta-0.1.9-beta-BETA_A-Setup.exe",
+                      "sha256":  "5d1d6dddff0d3f405ab2847b3589a21296ead8f7c6d2a49ad61389add428dc01",
+                      "size_bytes":  144139322
                   },
     "release_notes":  [
-                          "Fix Windows Task Scheduler status overflow",
-                          "Restore verified downloaded-installer state",
-                          "Improve interrupted-update recovery"
+                          "Fix scanner candidate history persistence.",
+                          "Add scanner persistence regression coverage.",
+                          "No trading strategy changes."
                       ]
 }
