@@ -2,20 +2,20 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.9-beta",
-    "published_at":  "2026-10-13T19:38:50.6337611Z",
-    "minimum_supported_version":  "0.1.8-beta",
+    "version":  "0.1.12-beta",
+    "published_at":  "2026-10-24T13:39:58.7323783Z",
+    "minimum_supported_version":  "0.1.11-beta",
     "cohorts":  [
                     "BETA_A"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.9-beta/AscendTrader-Beta-0.1.9-beta-BETA_A-Setup.exe",
-                      "sha256":  "5d1d6dddff0d3f405ab2847b3589a21296ead8f7c6d2a49ad61389add428dc01",
-                      "size_bytes":  144139322
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.12-beta/AscendTrader-Beta-0.1.12-beta-BETA_A-Setup.exe",
+                      "sha256":  "53035585a8949840b4b6249ccb1bc514a8e949b79bc9909a5441e8c7b49f0da5",
+                      "size_bytes":  144138883
                   },
     "release_notes":  [
-                          "Fix scanner candidate history persistence.",
-                          "Add scanner persistence regression coverage.",
-                          "No trading strategy changes."
+                          "Add automatic 120-second desktop data refresh",
+                          "Fix Windows console encoding errors during data export",
+                          "Improve export reliability without changing trading strategy"
                       ]
 }
