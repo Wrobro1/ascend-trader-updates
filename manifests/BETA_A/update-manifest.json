@@ -2,20 +2,21 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.12-beta",
-    "published_at":  "2026-10-24T13:39:58.7323783Z",
+    "version":  "0.1.13-beta",
+    "published_at":  "2026-10-25T13:18:57.7947372Z",
     "minimum_supported_version":  "0.1.11-beta",
     "cohorts":  [
                     "BETA_A"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.12-beta/AscendTrader-Beta-0.1.12-beta-BETA_A-Setup.exe",
-                      "sha256":  "53035585a8949840b4b6249ccb1bc514a8e949b79bc9909a5441e8c7b49f0da5",
-                      "size_bytes":  144138883
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.13-beta/AscendTrader-Beta-0.1.13-beta-BETA_A-Setup.exe",
+                      "sha256":  "cb366f6b792e49e76ab62c3fd3b61e690e96ec9c88f5d82c58fd9a249ab6d0f5",
+                      "size_bytes":  144535710
                   },
     "release_notes":  [
-                          "Add automatic 120-second desktop data refresh",
-                          "Fix Windows console encoding errors during data export",
-                          "Improve export reliability without changing trading strategy"
+                          "Retain v0.1.12 desktop refresh and export fixes",
+                          "Add bounded passive Context Intelligence collection",
+                          "Enable governed prospective research instrumentation",
+                          "Preserve Ascend 0.9.1 trading rules and paper-only beta"
                       ]
 }
