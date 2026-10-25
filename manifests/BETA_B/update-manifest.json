@@ -2,18 +2,21 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.7-beta",
-    "published_at":  "2026-10-12T15:47:26.8283518Z",
-    "minimum_supported_version":  "0.1.6-beta",
+    "version":  "0.1.13-beta",
+    "published_at":  "2026-10-25T13:22:32.4700224Z",
+    "minimum_supported_version":  "0.1.11-beta",
     "cohorts":  [
                     "BETA_B"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.7-beta/AscendTrader-Beta-0.1.7-beta-BETA_B-Setup.exe",
-                      "sha256":  "c30d5085698fac41638a4f7c2a62799a3a94155a6763528084168f7913b90182",
-                      "size_bytes":  144128548
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.13-beta/AscendTrader-Beta-0.1.13-beta-BETA_B-Setup.exe",
+                      "sha256":  "481331ce9a9b26aff931bbb9bb615735425ef512a312634cc45c1aaeaec01e53",
+                      "size_bytes":  144527749
                   },
     "release_notes":  [
-                          "Scheduler hotfix: restores the intended weekday 30-minute intraday trading-run cadence, validates the installed scheduler contract, and safely repairs outdated scheduled tasks while preserving automation enabled/paused state."
+                          "Retain v0.1.12 desktop refresh and export fixes",
+                          "Add bounded passive Context Intelligence collection",
+                          "Enable governed prospective research instrumentation",
+                          "Preserve Ascend 0.9.1 trading rules and paper-only beta"
                       ]
 }
