@@ -1,0 +1,22 @@
+{
+    "schema_version":  1,
+    "application":  "Ascend Trader",
+    "channel":  "BETA",
+    "version":  "0.1.13-beta",
+    "published_at":  "2026-10-25T13:26:07.6556896Z",
+    "minimum_supported_version":  "0.1.11-beta",
+    "cohorts":  [
+                    "BETA_C"
+                ],
+    "installer":  {
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.13-beta/AscendTrader-Beta-0.1.13-beta-BETA_C-Setup.exe",
+                      "sha256":  "b14024610bb9cd1ff233a027ccc14fa679adedef3188d5c271ae9d0a09c0d399",
+                      "size_bytes":  144527722
+                  },
+    "release_notes":  [
+                          "Retain v0.1.12 desktop refresh and export fixes",
+                          "Add bounded passive Context Intelligence collection",
+                          "Enable governed prospective research instrumentation",
+                          "Preserve Ascend 0.9.1 trading rules and paper-only beta"
+                      ]
+}
