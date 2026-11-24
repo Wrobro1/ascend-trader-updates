@@ -2,21 +2,21 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.13-beta",
-    "published_at":  "2026-10-25T13:26:07.6556896Z",
-    "minimum_supported_version":  "0.1.11-beta",
+    "version":  "0.2.1-beta",
+    "published_at":  "2026-11-24T19:50:32.9578222Z",
+    "minimum_supported_version":  "0.1.13-beta",
     "cohorts":  [
                     "BETA_C"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.13-beta/AscendTrader-Beta-0.1.13-beta-BETA_C-Setup.exe",
-                      "sha256":  "b14024610bb9cd1ff233a027ccc14fa679adedef3188d5c271ae9d0a09c0d399",
-                      "size_bytes":  144527722
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.2.1-beta/AscendTrader-Beta-0.2.1-beta-BETA_C-Setup.exe",
+                      "sha256":  "9d823bb59cafe80d0e65336d314ff9a3c4c3067e3e8927d7931fe9628b214032",
+                      "size_bytes":  199247198
                   },
     "release_notes":  [
-                          "Retain v0.1.12 desktop refresh and export fixes",
-                          "Add bounded passive Context Intelligence collection",
-                          "Enable governed prospective research instrumentation",
-                          "Preserve Ascend 0.9.1 trading rules and paper-only beta"
+                          "BETA_C recovery update from 0.1.13-beta to 0.2.1-beta",
+                          "Add read-only automation readiness diagnostic and preserve paper-only support tooling",
+                          "Preserve existing paper-only strategy and installation identity",
+                          "Trading automation requires separate installed acceptance and reconciliation before authorization"
                       ]
 }
