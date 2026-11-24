@@ -2,21 +2,21 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.13-beta",
-    "published_at":  "2026-10-25T13:18:57.7947372Z",
-    "minimum_supported_version":  "0.1.11-beta",
+    "version":  "0.2.1-beta",
+    "published_at":  "2026-11-24T16:50:56.3483150Z",
+    "minimum_supported_version":  "0.2.0-beta",
     "cohorts":  [
                     "BETA_A"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.13-beta/AscendTrader-Beta-0.1.13-beta-BETA_A-Setup.exe",
-                      "sha256":  "cb366f6b792e49e76ab62c3fd3b61e690e96ec9c88f5d82c58fd9a249ab6d0f5",
-                      "size_bytes":  144535710
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.2.1-beta/AscendTrader-Beta-0.2.1-beta-BETA_A-Setup.exe",
+                      "sha256":  "3d26dd1aec94da6174feac89424ccc9fd44d97c28fcd7535aeb5d028cf4669a9",
+                      "size_bytes":  199242734
                   },
     "release_notes":  [
-                          "Retain v0.1.12 desktop refresh and export fixes",
-                          "Add bounded passive Context Intelligence collection",
-                          "Enable governed prospective research instrumentation",
-                          "Preserve Ascend 0.9.1 trading rules and paper-only beta"
+                          "Add independent read-only automation readiness diagnostic for BETA_A",
+                          "Check Alpaca PAPER positions, quantities, outstanding orders and disabled scheduler state",
+                          "Preserve existing strategy and paper-only beta restrictions",
+                          "Automation remains disabled until a separate installed-runtime acceptance and authorization"
                       ]
 }
