@@ -2,21 +2,21 @@
     "schema_version":  1,
     "application":  "Ascend Trader",
     "channel":  "BETA",
-    "version":  "0.1.13-beta",
-    "published_at":  "2026-10-25T13:22:32.4700224Z",
-    "minimum_supported_version":  "0.1.11-beta",
+    "version":  "0.2.1-beta",
+    "published_at":  "2026-11-24T19:45:03.6329265Z",
+    "minimum_supported_version":  "0.1.13-beta",
     "cohorts":  [
                     "BETA_B"
                 ],
     "installer":  {
-                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.1.13-beta/AscendTrader-Beta-0.1.13-beta-BETA_B-Setup.exe",
-                      "sha256":  "481331ce9a9b26aff931bbb9bb615735425ef512a312634cc45c1aaeaec01e53",
-                      "size_bytes":  144527749
+                      "url":  "https://github.com/Wrobro1/ascend-trader-updates/releases/download/v0.2.1-beta/AscendTrader-Beta-0.2.1-beta-BETA_B-Setup.exe",
+                      "sha256":  "ac5c4de8c8f79f90c4059fc3b2189bd926857074fcf51d4076e0e50df02ffcbc",
+                      "size_bytes":  199246185
                   },
     "release_notes":  [
-                          "Retain v0.1.12 desktop refresh and export fixes",
-                          "Add bounded passive Context Intelligence collection",
-                          "Enable governed prospective research instrumentation",
-                          "Preserve Ascend 0.9.1 trading rules and paper-only beta"
+                          "BETA_B recovery update from 0.1.13-beta to 0.2.1-beta",
+                          "Add read-only automation readiness diagnostic and retain SNAP support evidence export",
+                          "Preserve existing paper-only strategy and installation identity",
+                          "Automation remains disabled until SNAP reconciliation and installed acceptance are reviewed"
                       ]
 }
